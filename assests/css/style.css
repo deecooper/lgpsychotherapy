@@ -79,9 +79,9 @@ h1, h2 {
     background-attachment: fixed;
 }
 
-#cover-text, h2 {
+#cover-text h2 {
     color: #ffff;
-    font-size: 170%;
+    font-size: 300%;
     letter-spacing: 3px;
 
 }
@@ -97,9 +97,11 @@ h1, h2 {
     font-size: 75%;
     letter-spacing: 1px;
     margin-top: 30px;
+    color: #ffff;
+    font-size: 120%;
 }
 
-button {
+/*button {
     background-color: #ffff;
     color: #377A3B;
     width: 60px;
@@ -107,4 +109,4 @@ button {
     padding: 10px 30px 10px 30px;
     margin: auto;
 }
-
+*/
