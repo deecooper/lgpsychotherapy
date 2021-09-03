@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LG Psychotherapy, counselling in Dublin 12 , Ireland">
+    <meta name="keywords" content="LG Psychotherapy, Psychotherapy, counselling, cousellor, Dublin 12, Ireland">
+
+    <link rel="stylesheet" href="assests/css/style.css">
+
+    <title>LG Psychotherapy</title>
+</head>
+<body>
+    <header>
+
+        <nav>
+        <div>
+            <a href="index.html">
+       
+           <h1 id="logo"> <img src="assests/images/logo-lgpsychotherapy.png" alt="logo-lgpsychotherapy"> </h1>
+            </a>
+            </div>
+        
+            <ul id="menu">
+                <li>
+                    <a href="make-a-booking.html">Make a Booking</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+                <li>
+                    <a href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Make a Booking</h1>
+    <form action="mailto:deecoopermedia@gmail.com" method="POST"> <!--w3 schools-->
+        <label for="name">Name</label>
+        <input type="text" id="Name" name="name" placeholder="name" required>
+        <br>
+    
+        <label for ="phone" >Phone Number</label>
+        <input type="text" id="phone" name="phone" placeholder="phone" required>
+        <br>
+    
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="email" required>
+        <br>
+    
+        <!--Days dropdown-->
+        <label for="day">What day suits you best?</label>
+        <select id="day" name="day">
+            <option value="monday">Monday</option>
+            <option value="tuesday">Tuesday</option>
+            <option value="wednesday">Wednesday</option>
+            <option value="thursday">Thursday</option>
+            <option value="friday">Friday</option>
+            <option value="saturday">Saturday</option>
+    
+        <!--radio buttons-->
+        <p>What time of day suits you?</p>
+        <label for="morning">Morning</label>
+        <input type="radio" id="morning" name="time" value="morning" required>
+        <label for="lunch-time">Lunch time</label>
+        <input type="radio" id="lunch-time" name="time" value="lunch-time">
+        <label for="afternoon">Afternoon</label>
+        <input type="radio" id="afternoon" name="time" value="afternoon">
+        <label for="evening">Evening</label>
+        <input type="evening" id="evening" name="time" value="evening">
+        
+    
+        
+    <br>
+        <label for="comments">Comments or questions</label>
+        <textarea id="comments" id="comments" rows="20" cols="50" name="comments"  placeholder="Enter any comments or questions here"></textarea>  
+        <br>
+        <label for="accept_terms">I consent to submitting my details with this form </label>
+        <input type="checkbox" name="accept_terms" value="yes" checked>
+        <br>
+    
+        <button><input type="submit" value="Send!"></button>
+    
+    </form>
+    
+    </section>
+    
+    </body>
+    </html>
+    
