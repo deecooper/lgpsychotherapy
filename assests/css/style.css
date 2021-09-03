@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Merriweather+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /* purple #7E5293, green #377A3B, light green #B2D78A */
 
@@ -29,8 +30,9 @@ h1, h2 {
 
 #logo img {
     float: left;
-    width: 200px;
-    height: 120px;
+    width: 180px;
+    height: 110px;
+    margin-left: 50px;
     
 }
 
@@ -40,14 +42,39 @@ h1, h2 {
 
 }
 
+#menu, #logo {
+    line-height: 75px;
+
+}
+
 #menu li {
     float: right;
     list-style-type: none;
-    margin-right: 30px;
+    margin-right: 50px;
     
 }
 
 #menu a {
     text-decoration: none;
     text-transform: uppercase;
+    color: #377A3B;
+    font-weight: 400;
+}
+
+#menu a:hover {
+    color:#B2D78A;
+}
+
+/*hero image */
+
+#hero-image {
+    background:  linear-gradient(
+        rgba(126, 82, 147, 0.40), 
+        rgba(0, 0, 0, 0.50) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
+    ),
+     url('../images/hero-image.jpg') no-repeat center center;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-attachment: fixed;
 }
