@@ -32,7 +32,7 @@ h1, h2 {
     float: left;
     width: 180px;
     height: 110px;
-    margin-left: 50px;
+    margin-left: 100px;
     
 }
 
@@ -70,7 +70,7 @@ h1, h2 {
 #hero-image {
     background:  linear-gradient(
         rgba(126, 82, 147, 0.40), 
-        rgba(0, 0, 0, 0.50) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
+        rgba(0, 0, 0, 0.40) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
     ),
      url('../images/hero-image.jpg') no-repeat center center;
     width: 100%;
@@ -78,3 +78,33 @@ h1, h2 {
     overflow: hidden;
     background-attachment: fixed;
 }
+
+#cover-text, h2 {
+    color: #ffff;
+    font-size: 170%;
+    letter-spacing: 3px;
+
+}
+
+#cover-text {
+    width: 600px;
+    height: 300px;
+    margin: 100px 0 0 100px;
+    position: absolute;
+}
+
+#cover-text p {
+    font-size: 75%;
+    letter-spacing: 1px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #ffff;
+    color: #377A3B;
+    width: 60px;
+    height: 30px;
+    padding: 10px 30px 10px 30px;
+    margin: auto;
+}
+
