@@ -22,14 +22,32 @@ body {
 h1, h2 {
     font-family: Merriweather, serif;
     font-weight: 400;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #377A3B;
 }
 
 #logo img {
     float: left;
-    width: 190px;
+    width: 200px;
     height: 120px;
     
+}
+
+#menu {
+    font-size: 110%;
+    letter-spacing: 2px;
+
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+
+#menu a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
