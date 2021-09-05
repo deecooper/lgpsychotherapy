@@ -222,6 +222,13 @@ h2 {
     
 }
 
+
+
+.img-lg {
+    box-shadow: 15px 15px #B2D78A; 
+
+}
+/* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow */
 .button1 {
     background-color: #B2D78A;
     border: none;
@@ -274,6 +281,7 @@ h2 {
 
 #video {
     margin-top: 50px;
+    box-shadow: 15px 15px #377A3B;
 
 }
 
@@ -306,6 +314,7 @@ h2 {
 
 .button2:hover {
     background-color: #fff;
+    color: #377A3B;
 }
 
 .button2 a:hover {
