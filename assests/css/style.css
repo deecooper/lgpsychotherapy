@@ -17,6 +17,7 @@ body {
     font-family: Merriweather, serif;
     font-weight: 300;
     color:black;
+    overflow-x: hidden;
 }
 
 /* headings */
@@ -225,7 +226,7 @@ h3 {
 
 #img-container img {
     height: 400px;
-    width: 300px;
+    width: 400px;
     margin: auto;
     
     
@@ -358,7 +359,7 @@ h3 {
     background-color: #fff;
     box-shadow: 10px 10px #B2D78A;
     float: left;
-    margin: 30px;
+    margin: 2%;
     text-align: center;
     border: #377A3B 1px solid;
 }
@@ -389,8 +390,19 @@ footer {
 
 .social-networks {
     text-align: center;
+
 }
 
+.social-networks li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 300%;
+    color: #fff;
+    margin: 2%;
+    padding: 4%;
+}
 
 
 /*booking form */
