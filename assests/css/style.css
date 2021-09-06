@@ -324,9 +324,17 @@ h2 {
 
 #testimonials-section {
     width: 100%;
-    height: 400px;
+    height: 500px;
     float: left;
+
 }
+
+#testimonials-section h2 {
+    margin-top: 40px;
+
+}
+
+
 
 #testimonials-section .testimonial-box {
     float: left;
@@ -349,18 +357,43 @@ h2 {
 
 #contact-container {
     width: 100%;
-    height: 500px;
+    height: 600px;
+    background-color: #fff;
 }
 
+#form-contact {
+    width: 50%;
+    background-color: #fff;
+    float: right;
+   
+}
 
 
 #footer-section {
     width: 100%;
     height: 250px;
     background-color: #7E5293;
+    
 }
 
+/*booking form */
 
+form {
+    clear: both;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#booking{
+    width: 70%;
+    margin-left: 15%;
+    padding-top: 150px;
+}
 
 
 
