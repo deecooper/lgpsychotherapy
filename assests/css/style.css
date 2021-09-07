@@ -185,6 +185,7 @@ h4 {
 .hero-button:hover {
     background-color: #B2D78A;
     color: #ffff;
+    transform: scale(1.1);
 
     
 }
@@ -283,6 +284,7 @@ h4 {
 
 .button1:hover {
     background-color: #377A3B;
+    transform: scale(1.1);
 }
 
 
@@ -343,6 +345,7 @@ h4 {
 .button2:hover {
     background-color: #fff;
     color: #377A3B;
+    transform: scale(1.1);
 }
 
 .button2 a:hover {
@@ -450,7 +453,7 @@ h4 {
 }
 
 .form-contact {
-    width: 50%;
+    width: 60%;
     background-color: #fff;
     margin: auto;
     padding: 2%;
@@ -521,20 +524,36 @@ footer h4 {
 }
 
 /*booking form */
-#booking-form {
-    width: 60%;
-    margin: auto;
-    padding-top: 5%;
-    
+#booking-form-bg {
+    width: 100%;
+    background: url('../images/trees-background.jpg') no-repeat center center;
+    height: 800px;
+    overflow: hidden;
+    background-attachment: fixed;
 }
+
+#booking-form {
+    width: 40%;
+    margin: 5%;
+    padding-top: 5%;
+    background-color: rgba(55, 122, 59, 0.70);
+    padding: 2%;
+}
+
+#booking-form h1 {
+    font-size: 250%;
+    font-weight: 600;
+    color: #fff;
+}
+
 form {
     clear: both;
 }
 
 input {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
+    width: 60%;
+    padding: 10px;
+    margin: 5px 0;
     box-sizing: border-box;
 }
 
@@ -547,7 +566,9 @@ input[type=submit] {
 
 
 input[type=submit]:hover {
-    background-color: #fff; /*https://www.w3schools.com/howto/howto_css_contact_section.asp */
+    background-color: #377A3B;
+    transform: scale(1.1); /*https://www.w3schools.com/howto/howto_css_contact_section.asp */
+    color: #fff;
 }
 
 
@@ -564,7 +585,9 @@ input[type=submit]:hover {
     width: 70%;
 }
 
-
+.label-booking {
+    color: #fff;
+}
 
 /* form */
 
