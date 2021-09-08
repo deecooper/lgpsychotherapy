@@ -358,8 +358,16 @@ h4 {
 
 #testimonial-section {
     width: 100%;
+    background: linear-gradient(
+        rgba(55, 122, 59, 0.40), 
+        rgba(0, 0, 0, 0.40) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
+    ),
+     url('../images/sunflower.jpg') no-repeat center center;
     height: 500px;
-    background-color: #377A3B;
+    overflow: hidden;
+    background-attachment: fixed;
+
+    
    
 
 }
@@ -580,7 +588,11 @@ footer h4 {
 
 #booking-form-bg {
     width: 100%;
-    background: url('../images/trees-background.jpg') no-repeat center center;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.20), 
+        rgba(0, 0, 0, 0.30) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
+    ),
+     url('../images/trees-background.jpg') no-repeat center center;
     height: 1000px;
     overflow: hidden;
     background-attachment: fixed;
@@ -598,6 +610,7 @@ footer h4 {
 #booking-form p {
     color: #fff;
     margin-top: 20px;
+    font-size: 110%;
 }
 
 
@@ -638,6 +651,7 @@ footer h4 {
 
 .label-booking {
     color: #fff;
+    font-size: 110%;
 }
 
 /* form */
