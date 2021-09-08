@@ -74,6 +74,7 @@
         <label for="email" class="label-booking">Email</label>
         <br>
         <input type="email" id="email" name="email" placeholder="email" required>
+        
         <br>
     
         <!--Days dropdown-->
@@ -85,30 +86,41 @@
             <option value="thursday">Thursday</option>
             <option value="friday">Friday</option>
             <option value="saturday">Saturday</option>
+    </select>
     
+
+    <br>
         <!--radio buttons-->
         <p>What time of day suits you?</p>
+        <br>
+        
         <label for="morning" class="label-booking">Morning</label>
-        <input type="radio" id="morning" name="time" value="morning" required>
+        <input type="radio" id="morning" name="time" value="morning" checked>
         <label for="lunch-time" class="label-booking">Lunch time</label>
         <input type="radio" id="lunch-time" name="time" value="lunch-time">
         <label for="afternoon" class="label-booking">Afternoon</label>
         <input type="radio" id="afternoon" name="time" value="afternoon">
-        <label for="evening" class="label-booking">Evening</label>
+        <label for="evening" class="label-booking" class="radio">Evening</label>
         <input type="radio" id="evening" name="time" value="evening">
         
-    
+        <br>
+        <p>What type of counselling are you interested in?</p>
+        <br>
+        <label for="face-to-face" class="label-booking">Face to face counselling </label>
+        <input type="checkbox" name="face-to-face" value="yes" checked>
+        <br>
+        <label for="online" class="label-booking">Online counselling</label>
+        <input type="checkbox" name="online" value="yes">
+        <br>
         
     <br>
         <label for="comments" class="label-booking">Comments or questions</label>
         <br>
-        <textarea id="comments" id="comments" rows="10" cols="50" name="comments"  placeholder="Enter any comments or questions here"></textarea>  
+        <textarea id="comments" id="comments" rows="10" cols="75" name="comments"  placeholder="Enter any comments or questions here"></textarea>  
         <br>
-        <label for="accept_terms" class="label-booking">I consent to submitting my details with this form </label>
-        <input type="checkbox" name="accept_terms" value="yes" checked>
-        <br>
+        
     
-        <input type="submit" value="Send!">
+        <input type="submit" class="submit-button-booking" value="Submit form">
     
     </form>
     
