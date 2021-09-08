@@ -314,6 +314,7 @@ h4 {
     box-shadow: 15px 15px #377A3B;
     width: 560px;
     height: 315px;
+    border: none;
 
 }
 
@@ -365,7 +366,7 @@ h4 {
         rgba(0, 0, 0, 0.40) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
     ),
      url('../images/sunflower.jpg') no-repeat center center;
-    height: 500px;
+    height: 550px;
     overflow: hidden;
     background-attachment: fixed;
 
@@ -378,7 +379,7 @@ h4 {
 
 .testimonial-box {
     width: 20%;
-    height: 300px;
+    height: 350px;
     background-color: #fff;
     
     float: left;
@@ -386,6 +387,12 @@ h4 {
     text-align: center;
     border: #377A3B 1px solid;
 
+    
+}
+
+.testimonial-box p {
+    font-style: italic;
+    line-height: 1.5;
     
 }
 
@@ -401,10 +408,6 @@ h4 {
     
 }
 
-.testimonial-heading h2 {
-    color: #fff;
-    text-align: center;
-}
 
 .testimonial-box p {
     padding: 5%;
@@ -423,8 +426,9 @@ h4 {
 
 .testimonial-box-header h3 {
     color: #fff;
-    font-weight: 500;
+    font-weight: 600;
     padding: 7%;
+    letter-spacing: 2px;
 }
 
 /*contact section*/
