@@ -764,6 +764,7 @@ form {
     }
 
 
+
     
 
 }
@@ -776,10 +777,12 @@ form {
 
     #menu_holder {
         width: 100%;
+        padding-bottom: 20px;
     }
 
 
 }
+
 
 @media screen and (max-width: 950px) {
 
@@ -804,6 +807,7 @@ form {
     #menu {
         text-align: center;
         margin-bottom: 20px;
+        font-size: 100%;
     }
 
     #menu li {
@@ -811,7 +815,19 @@ form {
 
     }
 
-    
+    #cover-text h2 {
+        font-size: 220%;
+    }
+
+    #testimonial-section {
+        height: 1000px;
+        margin: auto;
+    }
+
+    .testimonial-box {
+        width: 40%;
+        margin: 4%;
+    }
     
 
 
