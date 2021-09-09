@@ -72,8 +72,8 @@ h4 {
 }
 
 #logo_holder img{
-    width: 170px;
-    height: 100px;
+    width: 40%;
+    
     margin: auto;
     padding: 10px;
 }
@@ -671,6 +671,9 @@ form {
     clear: both;
 }
 
+/*Media Queries */
+
+
 /* for large to medium screen sizes*/
 
 @media screen and (max-width: 1200px) {
@@ -762,5 +765,55 @@ form {
 
 
     
+
+}
+
+/* for medium screen sizes*/
+
+@media screen and (max-width: 1010px) {
+
+    
+
+    #menu_holder {
+        width: 100%;
+    }
+
+
+}
+
+@media screen and (max-width: 950px) {
+
+    #container-header {
+        display: block;
+    }
+
+    #logo_holder {
+        width: 100%;
+        clear: both;
+        margin: 0 auto;
+        padding: 0;
+        
+    }
+
+    #logo_holder img {
+        padding-top: 10px;
+        width: 20%;
+
+    }
+
+    #menu {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    #menu li {
+        margin: 10px 20px 0 0;
+
+    }
+
+    
+    
+
+
 
 }
