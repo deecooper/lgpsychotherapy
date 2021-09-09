@@ -300,7 +300,8 @@ h4 {
 #services-container {
 
     width: 100%;
-    height: 600px;
+    padding-top: 20px;
+    height: 800px;
     background-color: #B2D78A;
 }
 
@@ -374,7 +375,8 @@ h4 {
         rgba(0, 0, 0, 0.40) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
     ),
      url('../images/sunflower.jpg') no-repeat center center;
-    height: 550px;
+    height: 600px;
+    padding-top: 30px;
     overflow: hidden;
     background-attachment: fixed;
 
@@ -393,7 +395,7 @@ h4 {
     float: left;
     margin: 2%;
     text-align: center;
-    border: #377A3B 1px solid;
+    
 
     
 }
@@ -445,6 +447,7 @@ h4 {
     width: 100%;
     height: 800px;
     background-color: #fff;
+    padding-top: 30px;
 }
 
 
@@ -555,7 +558,7 @@ textarea {
 
 footer {
     width: 100%;
-    height: 250px;
+    height: 200px;
     background-color: #7E5293;
     
     
@@ -585,8 +588,8 @@ footer a {
 .social-networks i {
     font-size: 300%;
     color: #fff;
-    margin: 2%;
-    padding: 4%;
+    
+    padding: 3%;
 }
 
 .social-networks i:hover {
@@ -785,6 +788,42 @@ form {
         width: 20%;
     }
 
+    #testimonial-section {
+        height: 1000px;
+        margin: auto;
+    }
+
+    .testimonial-box {
+        width: 40%;
+        margin: 4%;
+        
+    }
+
+    .testimonial-box-header h3 {
+        font-size: 170%;
+        padding: 20px;
+        
+    }
+
+    .testimonial-box p {
+        font-size: 120%;
+    }
+
+    
+
+
+
+
+
+
+
+
+    #booking-form-bg {
+        padding-top: 50px;
+
+    }
+
+
     #booking-form {
         width: 70%;
         margin: auto;
@@ -846,17 +885,10 @@ form {
         font-size: 220%;
     }
 
-    .hero-button a {
+    .hero-button a, .button1 a, .button2 a {
         font-size: 14px;
     }
 
-    .button1 a {
-        font-size: 14px;
-    }
-
-    .button2 a {
-        font-size: 14px;
-    }
 
     #testimonial-section {
         height: 1000px;
@@ -891,22 +923,151 @@ form {
     }
 
     .form-contact {
-        margin: 5%;
+        margin: auto;
+    }
+
+}
+
+
+    @media screen and (max-width: 770px) {
+        
+        
+        #services-container {
+            margin: auto;
+            width: 100%;
+            height: 1150px;
+        }
+
+        footer {
+            height: 200px;
+        }
+
+        footer p {
+            font-size: 10px; 
+
+        }
+
+        .testimonial-box p {
+            font-size: 100%;
+        }
+
+        #about-container {
+            height: 1000px;
+        
+        
+        }
+
+        .hero-button a, .button1 a, .button2 a {
+            font-size: 12px;
+        }
+
+        
+    
+
+    }
+
+    @media screen and (max-width: 600px) {
+
+        #menu {
+            font-size: 90%;
+
+        }
+
+        
+
+        #about-container {
+            height: 1000px;
+        }
+
+        .text-container p {
+            padding: 30px;
+            line-height: 2;
+        }
+
+        #services-container {
+            height: 1100px;
+        }
+
+        .hero-button, .button1, .button2 {
+            width: 30%;
+        }
+
+        .testimonial-box p {
+            font-size: 90%;
+        }
+
+
+        .submit-button-booking {
+            font-size: 80%;
+
+
+        }
+
+        iframe {
+            width: 300px;
+            height: 250px;
+        }
+
+
+}
+
+@media screen and (max-width: 480px) {
+
+    #hero-image {
+        height: 750px;
+    }
+
+    #cover-text {
+        padding: 20px 0 20px 0;
+        text-align: center;
+        margin: 0;
+    }
+
+    #cover-text h2 {
+        font-size: 200%;
+    }
+
+
+
+
+    #about-container {
+        height: 1100px;
+        
     }
 
     
 
+    #services-container {
+        height: 1250px;
+    }
+
+    .testimonial-box {
+        width: 60%;
+        margin: 10px 100px 10px 100px;
+        
+        
+    }
+
+    #testimonial-section {
+        width: 100%;
+        height: 1700px;
+        
+    }
 
 
 
 
 
 
-    
+
 
 
 
 }
+
+
+
+
 
 
 
@@ -1060,4 +1221,3 @@ form {
 
 
 
-}*/
