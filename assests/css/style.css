@@ -147,6 +147,12 @@ h4 {
     
 }
 
+.hero-button-container {
+    padding-top: 10px;
+   
+
+}
+
 #cover-text p {
     font-size: 100%;
     letter-spacing: 1px;
@@ -682,8 +688,13 @@ form {
         padding: 20px 50px 20px 50px;
     }
 
+    .hero-button-container {
+        margin-top: 20px;
+    }
+
     .hero-button {
         margin: auto;
+        width: 20%;
     }
 
 
@@ -708,9 +719,15 @@ form {
         
     }
 
+    .button1 {
+        width: 20%;
+
+    }
+
     #img-container {
         width: 100%;
         margin: auto;
+        clear: both;
 
 
     }
@@ -723,6 +740,7 @@ form {
         width: 100%;
         margin: auto;
         text-align: center;
+        clear: both;
 
     
     }
@@ -736,6 +754,10 @@ form {
 
     #services-container h2 {
         margin-top: 30px;
+    }
+
+    .button2 {
+        width: 20%;
     }
 
 
