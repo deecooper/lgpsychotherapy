@@ -18,6 +18,7 @@ body {
     font-weight: 300;
     color:black;
     overflow-x: hidden;
+    font-size: 16px;
 }
 
 /* headings */
@@ -471,6 +472,10 @@ h4 {
     padding: 2%;
 }
 
+iframe {
+    width: 400px;
+    height: 350px;
+}
 
 /* form on contact section */
 
@@ -611,9 +616,9 @@ footer a {
 #booking-form {
     width: 40%;
     margin: 5%;
-    padding-top: 5%;
+    padding: 4%;
     background-color: rgba(55, 122, 59, 0.70);
-    padding: 2%;
+    
     color: #fff;
 }
 
@@ -622,7 +627,6 @@ footer a {
     margin-top: 20px;
     font-size: 110%;
 }
-
 
 
 #booking-form h1 {
@@ -657,8 +661,6 @@ footer a {
 }
 
 
-
-
 .label-booking {
     color: #fff;
     font-size: 110%;
@@ -674,9 +676,243 @@ form {
 /*Media Queries */
 
 
-/* for large to medium screen sizes*/
+/*Media Queries for large screens */
 
 @media screen and (max-width: 1200px) {
+
+    #logo_holder img {
+        width: 50%;
+    }
+
+    #menu {
+
+        font-size: 100%;
+        
+
+    }
+
+    #menu li {
+        margin: 60px 30px 0 0;
+
+
+    }
+
+    #cover-text {
+        width: 100%;
+        margin: auto;
+        padding: 70px 0 70px 0;
+        text-align: center;
+    }
+
+    #cover-text p {
+        
+        margin: auto;
+        padding: 20px 80px 20px 80px;
+        font-size: 17px;
+    }
+
+    .hero-button-container {
+        margin-top: 20px;
+    }
+
+    .hero-button {
+        margin: auto;
+        width: 20%;
+        
+    }
+
+    #about-container {
+        width: 100%;
+        height: 1000px;
+    }
+    
+    
+    #services-container {
+        margin: auto;
+        width: 100%;
+        height: 1000px;
+    }
+
+    .text-container {
+        width: 100%;
+        margin: auto;
+        
+        
+    }
+    
+    .text-container p {
+        padding: 50px 80px 50px 80px;
+    }
+
+    .button1 {
+        width: 20%;
+
+    }
+
+    #img-container {
+        width: 100%;
+        margin: auto;
+        clear: both;
+
+
+    }
+
+    #img-container img {
+        margin-top: 50px;
+    }
+
+    #video-container {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        clear: both;
+
+    
+    }
+
+    #video {
+        text-align: center;
+        margin-top: 70px;
+        width: 70%;
+        display: inline-block;
+    }
+
+    #services-container h2 {
+        margin-top: 30px;
+    }
+
+    .button2 {
+        width: 20%;
+    }
+
+    #booking-form {
+        width: 70%;
+        margin: auto;
+        padding: 30px;
+        clear: both;
+    }
+
+
+    
+
+
+
+
+
+
+}
+
+/*media queries for tablet */
+
+@media screen and (max-width: 950px) {
+    
+    #container-header {
+        display: block;
+    }
+
+    #logo_holder {
+        width: 100%;
+        clear: both;
+        margin: 0 auto;
+        padding: 0;
+        
+    }
+
+    #logo_holder img {
+        padding-top: 10px;
+        width: 20%;
+
+    }
+
+    #menu_holder {
+        width: 100%;
+
+    }
+
+    #menu {
+        
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 100%;
+    }
+
+    #menu li {
+        margin: 10px 20px 0 0;
+        
+
+    }
+
+    #cover-text h2 {
+        font-size: 220%;
+    }
+
+    .hero-button a {
+        font-size: 14px;
+    }
+
+    .button1 a {
+        font-size: 14px;
+    }
+
+    .button2 a {
+        font-size: 14px;
+    }
+
+    #testimonial-section {
+        height: 1000px;
+        margin: auto;
+    }
+
+    .testimonial-box {
+        width: 40%;
+        margin: 4%;
+    }
+
+    #contact-container {
+        width: 100%;
+        height: 1500px;
+    }
+
+    .contact-information {
+        width: 100%;
+        margin-top: 10px;
+        clear: both;
+        
+    }
+    
+    iframe {
+        width: 500px;
+        height: 450px;
+    }
+
+    .form-container {
+        width: 100%;
+        clear: both;
+    }
+
+    .form-contact {
+        margin: 5%;
+    }
+
+    
+
+
+
+
+
+
+
+    
+
+
+
+}
+
+
+
+/* for large to medium screen sizes*/
+
+/*@media screen and (max-width: 1200px) {
     
     #cover-text {
         width: 100%;
@@ -763,27 +999,19 @@ form {
         width: 20%;
     }
 
-
-
-    
-
-}
-
-/* for medium screen sizes*/
-
-@media screen and (max-width: 1010px) {
-
-    
-
-    #menu_holder {
+    #booking {
         width: 100%;
-        padding-bottom: 20px;
+        margin: auto;
     }
 
 
+
+    
+
 }
 
 
+/*
 @media screen and (max-width: 950px) {
 
     #container-header {
@@ -832,4 +1060,4 @@ form {
 
 
 
-}
+}*/
