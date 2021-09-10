@@ -18,6 +18,7 @@ body {
     font-weight: 300;
     color:black;
     overflow-x: hidden;
+    overflow-y: hidden;
     font-size: 16px;
 }
 
@@ -809,14 +810,6 @@ form {
         font-size: 120%;
     }
 
-    
-
-
-
-
-
-
-
 
     #booking-form-bg {
         padding-top: 50px;
@@ -902,7 +895,7 @@ form {
 
     #contact-container {
         width: 100%;
-        height: 1500px;
+        height: 1300px;
     }
 
     .contact-information {
@@ -1014,13 +1007,17 @@ form {
 @media screen and (max-width: 480px) {
 
     #hero-image {
-        height: 750px;
+        height: 650px;
     }
 
     #cover-text {
-        padding: 20px 0 20px 0;
-        text-align: center;
+        padding: 60px 0 20px 0;
         margin: 0;
+       
+    }
+
+    #cover-text p {
+        padding: 10px;
     }
 
     #cover-text h2 {
@@ -1035,6 +1032,11 @@ form {
         
     }
 
+    #img-container img {
+        width: 300px;
+        height: 300px;
+    }
+
     
 
     #services-container {
@@ -1044,6 +1046,7 @@ form {
     .testimonial-box {
         width: 60%;
         margin: 10px 100px 10px 100px;
+        clear: both;
         
         
     }
@@ -1054,16 +1057,63 @@ form {
         
     }
 
+    .testimonial-heading {
+        font-size: 220%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
 
-
-
-
-
-
-
-
+    .form-contact {
+        width: 80%;
+    }
 
 }
+
+
+    @media screen and (max-width: 380px) {
+
+        #logo_holder img {
+            width: 25%;
+        }
+
+        #cover-text p {
+            font-size: 16px;
+        }
+
+        #services-container {
+            height: 1350px;
+        }
+
+        body {
+            font-size: 15px;
+            overflow-x: hidden;
+            overflow-y: hidden;
+        }
+
+        #booking-form h1 {
+            font-size: 200%;
+            text-align: center;
+        }
+
+        .submit-button-booking {
+            width: 50%;
+        }
+
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
 
 
 
