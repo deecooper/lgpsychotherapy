@@ -610,11 +610,8 @@ footer {
 
 #booking-form-bg {
     width: 100%;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.20), 
-        rgba(0, 0, 0, 0.30) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
-    ),
-     url('../images/trees-background.jpg') no-repeat center center;
+    background: rgba(0, 0, 0, 0.5) url('../images/trees-background.jpg') no-repeat center center;
+    background-blend-mode: multiply;
     height: 1000px;
     overflow: hidden;
     background-attachment: fixed;
@@ -624,8 +621,7 @@ footer {
     width: 40%;
     margin: 5%;
     padding: 4%;
-    background-color: rgba(55, 122, 59, 0.70);
-    
+    background-color: rgba(55, 122, 59, 0.80);
     color: #fff;
 }
 
