@@ -68,25 +68,24 @@ h4 {
 
 
 
-#logo_holder{
+#logo-holder{
     width: 30%;
     text-align: center;
     display: inline-block;
 }
 
-#logo_holder img{
+#logo-holder img{
     width: 40%;
-    
     margin: auto;
     padding: 10px;
 }
 
-#logo_holder a {
+#logo-holder a {
     display: block;
     position: relative;
 }
 
-#menu_holder{
+#menu-holder{
     display: inline-block;
 }
 
@@ -120,10 +119,10 @@ h4 {
 
 /*hero image */
 
-#hero-image {
+/*#hero-image {
     background:  linear-gradient(
         rgba(126, 82, 147, 0.40), 
-        rgba(0, 0, 0, 0.40) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
+        rgba(0, 0, 0, 0.40) /*https://css-tricks.com/tinted-images-multiple-backgrounds
     ),
      url('../images/hero-image.jpg') no-repeat center center;
     width: 100%;
@@ -131,13 +130,23 @@ h4 {
     overflow: hidden;
     background-attachment: fixed;
 }
+*/
 
+#hero-image {
+    background: rgba(64, 44, 76, 0.6) url('../images/hero-image.jpg') no-repeat center center;
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background-attachment: fixed;
+
+}
 
 #cover-text h1 {
-    color: #ffff;
-    font-size: 300%;
+    color: #fff;
     letter-spacing: 3px;
     font-weight: bold;
+    font-size: 300%;
 
 }
 
@@ -376,11 +385,8 @@ h4 {
 
 #testimonial-section {
     width: 100%;
-    background: linear-gradient(
-        rgba(55, 122, 59, 0.40), 
-        rgba(0, 0, 0, 0.40) /*https://css-tricks.com/tinted-images-multiple-backgrounds/*/
-    ),
-     url('../images/sunflower.jpg') no-repeat center center;
+    background: rgba(0, 0, 0, 0.5) url('../images/sunflower.jpg') no-repeat center center;
+    background-blend-mode: multiply;
     height: 600px;
     padding-top: 30px;
     overflow: hidden;
@@ -681,7 +687,7 @@ form {
 
 @media screen and (max-width: 1200px) {
 
-    #logo_holder img {
+    #logo-holder img {
         width: 50%;
     }
 
@@ -833,7 +839,7 @@ form {
         display: block;
     }
 
-    #logo_holder {
+    #logo-holder {
         width: 100%;
         clear: both;
         margin: 0 auto;
@@ -841,13 +847,13 @@ form {
         
     }
 
-    #logo_holder img {
+    #logo-holder img {
         padding-top: 10px;
         width: 20%;
 
     }
 
-    #menu_holder {
+    #menu-holder {
         width: 100%;
 
     }
@@ -865,7 +871,7 @@ form {
 
     }
 
-    #cover-text h2 {
+    #cover-text h1 {
         font-size: 220%;
     }
 
@@ -940,7 +946,7 @@ form {
         }
 
         #about-container {
-            height: 1000px;
+            height: 1100px;
         
         
         }
@@ -980,8 +986,17 @@ form {
             width: 30%;
         }
 
+        .testimonial-heading {
+            text-align: center;
+            margin: 0;
+        }
+
         .testimonial-box p {
             font-size: 90%;
+        }
+
+        #contact-container {
+            height: 1300px;
         }
 
 
@@ -999,6 +1014,8 @@ form {
         footer {
             height: 100px;
         }
+
+
 
 
 }
@@ -1019,18 +1036,19 @@ form {
         padding: 10px;
     }
 
-    #cover-text h2 {
+    #cover-text h1 {
         font-size: 200%;
     }
 
     #about-container {
-        height: 1100px;
+        height: 1200px;
         
     }
 
     #img-container img {
         width: 300px;
         height: 300px;
+        box-shadow: none;
     }
 
     
@@ -1074,8 +1092,8 @@ form {
 
     @media screen and (max-width: 380px) {
 
-        #logo_holder img {
-            width: 25%;
+        #logo-holder img {
+            width: 30%;
         }
 
         #cover-text p {
@@ -1083,7 +1101,7 @@ form {
         }
 
         #services-container {
-            height: 1450px;
+            height: 1500px;
         }
 
         body {
@@ -1099,10 +1117,6 @@ form {
         .submit-button-booking {
             width: 50%;
         }
-
-
-
-
 
 
     }
