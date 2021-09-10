@@ -18,7 +18,7 @@ body {
     font-weight: 300;
     color:black;
     overflow-x: hidden;
-    overflow-y: hidden;
+    
     font-size: 16px;
 }
 
@@ -1086,8 +1086,7 @@ form {
 
         body {
             font-size: 15px;
-            overflow-x: hidden;
-            overflow-y: hidden;
+           
         }
 
         #booking-form h1 {
