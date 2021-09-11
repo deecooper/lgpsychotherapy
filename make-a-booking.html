@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!--head-->
+<!--head-->
+
 <head>
     <!--Meta Tags-->
     <meta charset="UTF-8">
@@ -18,138 +19,146 @@
 
 
 <!--body-->
+
 <body>
     <!--logo-->
-<header id="container-header">
-    <div id="logo-holder">
-        <a href="index.html">
-       <img src="assests/images/logo-lgpsychotherapy.png" alt="logo-lgpsychotherapy"> 
-        </a>
+    <header id="container-header">
+        <div id="logo-holder">
+            <a href="index.html">
+                <img src="assests/images/logo-lgpsychotherapy.png" alt="logo-lgpsychotherapy">
+            </a>
+        </div>
+
+
+        <!--navigation-->
+        <nav id="menu-holder">
+            <ul id="menu">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="index.html#about">About</a>
+                </li>
+
+                <li>
+                    <a href="index.html#services">Services</a>
+                </li>
+
+
+                <li>
+                    <a href="index.html#contact">Contact</a>
+                </li>
+
+                <li>
+                    <a href="make-a-booking.html">Make a Booking</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
+    <div id="booking-form-bg">
+
+        <div id="booking-form">
+
+            <h1>Make a Booking</h1>
+
+            <form action="https://formdump.codeinstitute.net/" method="POST">
+                <!--w3 schools-->
+                <label for="name" class="label-booking">Name</label>
+                <br>
+                <input type="text" id="name" name="name" placeholder="name" required>
+                <br>
+
+                <label for="phone" class="label-booking">Phone Number</label>
+                <br>
+                <input type="text" id="phone" name="phone" placeholder="phone" required>
+                <br>
+
+                <label for="email" class="label-booking">Email</label>
+                <br>
+                <input type="email" id="email" name="email" placeholder="email" required>
+
+                <br>
+
+                <!--Days dropdown-->
+                <label for="day" class="label-booking">What day suits you best?</label>
+                <select id="day" name="day">
+                    <option value="monday">Monday</option>
+                    <option value="tuesday">Tuesday</option>
+                    <option value="wednesday">Wednesday</option>
+                    <option value="thursday">Thursday</option>
+                    <option value="friday">Friday</option>
+                    <option value="saturday">Saturday</option>
+                </select>
+
+
+                <br>
+                <!--radio buttons-->
+                <p>What time of day suits you?</p>
+                <br>
+
+                <label for="morning" class="label-booking">Morning</label>
+                <input type="radio" id="morning" name="time" value="morning" checked>
+                <label for="lunch-time" class="label-booking">Lunch time</label>
+                <input type="radio" id="lunch-time" name="time" value="lunch-time">
+                <label for="afternoon" class="label-booking">Afternoon</label>
+                <input type="radio" id="afternoon" name="time" value="afternoon">
+                <label for="evening" class="label-booking">Evening</label>
+                <input type="radio" id="evening" name="time" value="evening">
+
+                <br>
+                <p>What type of counselling are you interested in?</p>
+                <br>
+                <label for="face-to-face" class="label-booking">Face to face counselling </label>
+                <input type="checkbox" name="face-to-face" value="yes" id="face-to-face" checked>
+                <br>
+                <label for="online" class="label-booking">Online counselling</label>
+                <input type="checkbox" name="online" value="yes" id="online">
+                <br>
+
+                <br>
+                <label for="comments" class="label-booking">Comments or questions</label>
+                <br>
+                <textarea id="comments" name="comments" placeholder="Enter any comments or questions here"></textarea>
+                <br>
+
+
+                <input type="submit" class="submit-button-booking" value="Submit form">
+
+            </form>
+
+        </div>
     </div>
-
-
-    <!--navigation-->
-    <nav id="menu-holder">
-        <ul id="menu">
-
-            <li>
-                <a href="index.html">Home</a>
-            </li>
-            <li>
-                <a href="index.html#about">About</a>
-            </li>
-            
-            <li>
-                <a href="index.html#services">Services</a>
-            </li>
-
-            
-            <li>
-                <a href="index.html#contact">Contact</a>
-            </li>
-            
-            <li>
-                <a href="make-a-booking.html">Make a Booking</a>
-            </li>
-            
-        </ul>
-    </nav>
-</header>
-<div id="booking-form-bg">
-
-<div id="booking-form">
-    
-    <h1>Make a Booking</h1>
-    
-    <form action="https://formdump.codeinstitute.net/" method="POST"> <!--w3 schools-->
-        <label for="name" class="label-booking">Name</label>
-        <br>
-        <input type="text" id="name" name="name" placeholder="name" required>
-        <br>
-    
-        <label for ="phone" class="label-booking" >Phone Number</label>
-        <br>
-        <input type="text" id="phone" name="phone" placeholder="phone" required>
-        <br>
-    
-        <label for="email" class="label-booking">Email</label>
-        <br>
-        <input type="email" id="email" name="email" placeholder="email" required>
-        
-        <br>
-    
-        <!--Days dropdown-->
-        <label for="day" class="label-booking">What day suits you best?</label>
-        <select id="day" name="day">
-            <option value="monday">Monday</option>
-            <option value="tuesday">Tuesday</option>
-            <option value="wednesday">Wednesday</option>
-            <option value="thursday">Thursday</option>
-            <option value="friday">Friday</option>
-            <option value="saturday">Saturday</option>
-    </select>
-    
-
-    <br>
-        <!--radio buttons-->
-        <p>What time of day suits you?</p>
-        <br>
-        
-        <label for="morning" class="label-booking">Morning</label>
-        <input type="radio" id="morning" name="time" value="morning" checked>
-        <label for="lunch-time" class="label-booking">Lunch time</label>
-        <input type="radio" id="lunch-time" name="time" value="lunch-time">
-        <label for="afternoon" class="label-booking">Afternoon</label>
-        <input type="radio" id="afternoon" name="time" value="afternoon">
-        <label for="evening" class="label-booking">Evening</label>
-        <input type="radio" id="evening" name="time" value="evening">
-        
-        <br>
-        <p>What type of counselling are you interested in?</p>
-        <br>
-        <label for="face-to-face" class="label-booking">Face to face counselling </label>
-        <input type="checkbox" name="face-to-face" value="yes" id="face-to-face" checked>
-        <br>
-        <label for="online" class="label-booking">Online counselling</label>
-        <input type="checkbox" name="online" value="yes" id="online">
-        <br>
-        
-    <br>
-        <label for="comments" class="label-booking">Comments or questions</label>
-        <br>
-        <textarea id="comments" name="comments"  placeholder="Enter any comments or questions here"></textarea>  
-        <br>
-        
-    
-        <input type="submit" class="submit-button-booking" value="Submit form">
-    
-    </form>
-    
-</div>
-</div>
+        <!--Footer Section-->
     <footer>
 
-   
+        <!--Social Media links-->
+
+
         <ul class="social-networks">
             <li>
-                    <a href="https://www.facebook.com/LG-Psychotherapy-106549495096052" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
-         </li>
-        
-
-       <li>
-           <a href="https://www.instagram.com/lg_psychotherapy/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
-        </li> 
+                <a href="https://www.facebook.com/LG-Psychotherapy-106549495096052" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)"><i class="fab fa-facebook-square"></i></a>
+            </li>
 
 
-       <li>  
-            <a href="https://twitter.com/PsychotherapyLg" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
-        </li>
-    </ul>
-    
+            <li>
+                <a href="https://www.instagram.com/lg_psychotherapy/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)"><i class="fab fa-instagram"></i></a>
+            </li>
+
+
+            <li>
+                <a href="https://twitter.com/PsychotherapyLg" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)"><i class="fab fa-twitter-square"></i></a>
+            </li>
+        </ul>
+
     </footer>
     <!--Font Awesome link-->
     <script src="https://kit.fontawesome.com/22c64c76c1.js" crossorigin="anonymous"></script>
 
-    </body>
-    </html>
-    
+</body>
+
+</html>
