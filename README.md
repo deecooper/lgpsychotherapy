@@ -1,108 +1,224 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome deecooper,
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<h1 align="center"> LG Psychotherapy </h1>
 
-## Gitpod Reminders
+LG Psychotherapy is a counselling website aimed at adults who are looking for an online/face-to-face counsellor. 
+Any user of this site will be able to find out information about the services offered at LG Psychotherapy. They will also find information about the counsellor Lorna Gavin who owns LG Psychotherapy
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<img src="docs/am-i-responsive.JPG">
+<h2 align="center"> Features </h1>
 
-`python3 -m http.server`
+### Header/Navigation
 
-A blue button should appear to click: _Make Public_,
+The sites header located at the top of the website page. 
+The navigation links are nested inside the header
+To the left, we can see the LG Psychotherapy logo which links to the home page.
+To the right, we can see the fully responsive navigation links (Home, About, Services, Contact and Make a booking)
+Home, About, Services and Contact all link to different sections of the main index page.
+Make a booking is located on a separate page as it contains a large form for the user to fill out.
+The LG Psychotherapy logo contains three colours (green, lighter green and purple.
+The navigation links are the same colour green that we see in the logo.
+The hover colour is the same as the light green in the logo.
+These colours are used throughout the website to maintain visual consistency
 
-Another blue button should appear to click: _Open Browser_.
+<img src="docs/header-nav.JPG">
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+### Hero Image
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+This section is located directly underneath the header.
+The hero image chosen for this site shows a lake landscape with mountains and trees.
+This image was picked as it is a calming, peaceful background image.
+On the left-hand side of the image we can see the cover text which shows the main heading and a paragraph explaining what counselling is and who can benefit from it.
 
-To log into the Heroku toolbelt CLI:
+<img src="docs/hero-image.jpg">
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### About Section
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+The about section informs users about the counsellor Lorna Gavin and why she became a counsellor.
+This section is important as it allows Lorna Gavin to introduce herself to potential clients. 
+The about section also includes an image of the counsellor Lorna Gavin and a button linking to the services section.
 
-------
+<img src="docs/about-section.JPG">
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Services Section
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+This section allows users to find out about the type of Psychotherapy/ Counselling that Lorna Gavin provides to her clients.
+This section also allows users to take a look at the counselling room via YouTube video. 
+There is a button in this section linking to the Make a Booking page.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<img src="docs/services-section.JPG">
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+### Testimonial Section
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+There is no link to this section as it is not as prominent as the other sections on the website
+This section contains testimonials from Lorna’s previous and current clients.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<img src="docs/testimonials-section.JPG">
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Contact Section
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The contact section provides the user with the address, contact number, email and Google map for LG Psychotherapy
+There is a small contact form in this section that the user can fill out quickly if they have any queries.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<img src="docs/contact-section.JPG">
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+### Footer
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+The footer section includes social media icons (Facebook, Twitter and Instagram) these icons were downloaded from the Font Awesome Website.
+When clicked these icons bring the user to the social media platforms on a separate page.
+These icons are useful to the user as they are also a means of contact.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Make a Booking Page
 
-------
+This page allows users to book a counselling session with the counsellor Lorna Gavin.
+The form on this page gathers the users contact information.
+The form asks the users to provide the time and day that suits them and which counselling service they are interested in. 
 
-## FAQ about the uptime script
+### Features left to implement 
 
-**Why have you added this script?**
+A blog page that contains articles about Counselling and Psychotherapy.
+Links to additional resources for suicide prevention and depression.
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<h2 align="center"> Design </h2>
 
-**How will this affect me?**
+### Colour Scheme
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The main colours used in this website are green, light green, purple and white.
+The colours were picked from the logo.
+The green and purple are contrasting colours that complement one another. 
+Green and purple were chosen for this website/logo as both colours can create a calming effect.
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+### Font
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The two fontsused in this website (Merriweather and Roboto) are part of the Google fontlibrary. Merriweather is a serif font. It was chosen as it is used in the LGPsychotherapy logo. Roboto is a basic sans-serif font. This font was picked asit clean modern typeface which can be paired with most Google Fonts.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+### Imagery
 
-**Can I opt out?**
+The background images picked for this website are consistent with the logo. The hero image is a lake landscape with trees and mountains. The background image chosen for the make a booking page is a photo of trees with sun shining through.
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+<h2 align="center"> Testing </h2>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+### W3c Validator
 
-**Anything more?**
+The website was tested using W3C Markup Validator and W3C CSS Validator. Any errors that were found throughout the process of creating this website were fixed. The final testing that was carried out on all pages out showed no errors.
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### Other Testing 
 
----
+The website was tested on different size screens using the website Responsinator(http://www.responsinator.com/?url=https%3A%2F%2Fdeecooper.github.io%2Flgpsychotherapy%2F) 
+and Dev tools on Chrome. The website is responsive on all screen sizes.
 
-Happy coding!
+Both forms on the website were tested several times. The main input fields require an entry before the user can submit the form. The email section only works if a user enters an email address.
+
+I tested the website on Google Chrome, Mozilla Firefox and Internet Explorer.
+
+The site was also tested by three people on different mobile devices and two desktops.
+### Bugs
+
+The main bug that I had an issue with was the overflow-y: hidden property, which stopped my website from scrolling.
+I went through all of my code and realised it was the overflow-y property that was causing the problem.
+Another bug I encountered was the border: none value. I set the border none in my asterisk at the top of my CSS file. I soon realised it was causing the input fields on my form to have an entry field with no box border. I fixed this by removing the border property from the asterisk and adding the box border property to the input field in my CSS file.
+
+### Known bugs
+
+My website doesnt look the same on Internet Explorer. The colour scheme isnt working and the font looks different.
+
+### Lighthouse
+
+I ran a lighthouse audit on my website. The results of the audit are showen in the picture below
+
+<img src="docs/lighthouse-score.JPG">
+
+<h2 align="center"> Credits </h2>
+
+### Content
+
+The images I used were downloaded off the Pixabay website 
+(https://pixabay.com/)
+
+The video featured on the website was created by the developer
+
+The background music included in the video was downloaded from (https://www.bensound.com/)
+
+The image of Loran Gavin the counsellor was taken by the developer
+
+The logo on the website was purchased from the Logo Maker website
+(https://www.logomaker.com/home-return)
+
+The social media icons in the footer were taken from a website called Font Awesome
+(https://fontawesome.com/)
+
+### Code
+
+The code for the social media links in the footer was taken from the love running website
+https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/commit/a78fffc1efdeca3f6fb96e9be27b0ebee484eba8
+
+My mentor Antonio Rodriguez helped me with the header element as I couldn’t get my logo and navigation links to line up with one another. 
+
+He helped me write out this code which he researched on w3 schools
+
+#container-header {
+    display: flex;
+}
+
+
+#logo-holder{
+    width: 30%;
+    text-align: center;
+    display: inline-block;
+}
+
+#logo-holder img{
+    width: 40%;
+    margin: auto;
+    padding: 10px;
+}
+
+#logo-holder a {
+    display: block;
+    position: relative;
+}
+
+#menu-holder{
+    display: inline-block;
+}
+
+
+I had issues making my whole button clickable and not just the text. I found the information here https://www.codecademy.com/forum_questions/536ccab4548c35ad24001a2e
+I used the display: block property which fixed my issue.
+
+
+I wanted to put a box shadow behind my image and video. I found out how to do it using w3 schools. I used the code and changed the shadow colour and size.
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow
+I used the background-blend mode property which I researched from stack overflow. I used this property to make my overlay visible
+https://stackoverflow.com/questions/36679649/how-to-add-a-color-overlay-to-a-background-image/36679903
+
+
+
+
+
+
+
+Further Testing
+The website was tested on Google Chrome, Internet Explorer and Mozilla firefox. 
+The website takes longer to load on internet explorer and the colour are distorted.
+I got two friends to test the website on desktop and mobile devices.
+Deployment 
+The site was deployed to Github pages and a live link to the website was provided. 
+The deployment steps are as follows
+1.	Log into git Hub
+2.	Locate the specific repository
+3.	Select the settings link
+4.	In the settings scroll down to pages
+5.	Under the source heading select the dropdown menu and select main.
+6.	A link to your website will be provided https://deecooper.github.io/lgpsychotherapy/
+
+
+

@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-/* purple #7E5293, green #377A3B, light green #B2D78A */
+
 
 *{
     margin: 0;
@@ -18,7 +18,6 @@ body {
     font-weight: 300;
     color:black;
     overflow-x: hidden;
-    
     font-size: 16px;
 }
 
@@ -53,10 +52,6 @@ h4 {
 
 
 }
-
-
-
-
 
 
 
@@ -117,20 +112,6 @@ h4 {
 
 
 
-/*hero image */
-
-/*#hero-image {
-    background:  linear-gradient(
-        rgba(126, 82, 147, 0.40), 
-        rgba(0, 0, 0, 0.40) /*https://css-tricks.com/tinted-images-multiple-backgrounds
-    ),
-     url('../images/hero-image.jpg') no-repeat center center;
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
-    background-attachment: fixed;
-}
-*/
 
 #hero-image {
     background: rgba(64, 44, 76, 0.6) url('../images/hero-image.jpg') no-repeat center center;
@@ -166,7 +147,7 @@ h4 {
 }
 
 #cover-text p {
-    font-size: 100%;
+    font-size: 110%;
     letter-spacing: 1px;
     margin-top: 30px;
     color: #ffff;
@@ -176,12 +157,10 @@ h4 {
 .hero-button {
     
     border: none;
-    
     width: 30%;
     text-align: center;
     margin-top: 30px;
     background-color: white;
-    
     
     
 }
@@ -196,7 +175,7 @@ h4 {
     padding: 10px;
     text-transform: uppercase;
     font-weight: 600;
-    display: block; /*https://www.codecademy.com/forum_questions/536ccab4548c35ad24001a2e*/
+    display: block; 
 
 }
 
@@ -276,7 +255,7 @@ h4 {
     box-shadow: 15px 15px #B2D78A; 
 
 }
-/* https://www.w3schools.com/cssref/tryit.asp?filename=trycss3_box-shadow */
+
 .button1 {
     background-color: #B2D78A;
     border: none;
@@ -294,7 +273,6 @@ h4 {
     font-family: Roboto, sans-serif;
     color: #ffff;
     text-transform: uppercase;
-    
     letter-spacing: 2px;
     font-size: 16px;
     font-weight: 600;
@@ -360,7 +338,6 @@ h4 {
     font-family: Roboto, sans-serif;
     color: #ffff;
     text-transform: uppercase;
-    
     letter-spacing: 2px;
     font-size: 16px;
     font-weight: 600;
@@ -391,8 +368,6 @@ h4 {
     padding-top: 30px;
     overflow: hidden;
     background-attachment: fixed;
-
-    
    
 
 }
@@ -508,7 +483,6 @@ iframe {
     background-color: #fff;
     margin: auto;
     padding: 2%;
-
     border: #B2D78A solid 1px;
     
    
@@ -566,6 +540,8 @@ textarea {
     transform: scale(1.1);
 
 }
+
+
 /* footer */
 
 
@@ -573,8 +549,7 @@ footer {
     width: 100%;
     height: 200px;
     background-color: #7E5293;
-    
-    
+        
 }
 
 
@@ -669,12 +644,15 @@ footer {
     font-size: 110%;
 }
 
+
 /* form */
 
 
 form {
     clear: both;
 }
+
+
 
 /*Media Queries */
 
@@ -1070,7 +1048,13 @@ form {
     #testimonial-section {
         width: 100%;
         height: 1500px;
+        background-image: none;
+        background-color: #fff;
         
+    }
+
+    .testimonial-box {
+        border: #B2D78A solid 1px;
     }
 
     .testimonial-heading {
